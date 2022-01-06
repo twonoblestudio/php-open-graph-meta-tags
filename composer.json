@@ -1,0 +1,32 @@
+{
+    "name": "zsoltoroszlany/php-open-graph-meta-tags",
+    "description": "PHP Open Graph meta tag generator",
+    "keywords": [
+        "open graph", "og"
+    ],
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "2 Noble Studio",
+            "homepage": "https://twonoblestudio.com/",
+            "email": "twonoblestudio@twonoblestudio.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TwoNobleStudio\\OpenGraph\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TwoNobleStudio\\OpenGraph\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
