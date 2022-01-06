@@ -4,7 +4,7 @@
     "keywords": [
         "open graph", "og"
     ],
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
